@@ -1,0 +1,84 @@
+".header-title":{
+  width:Titanium.UI.FILL,
+  height: 40,
+  backgroundColor: "#68cc33"
+},
+
+".container":{
+  width:Titanium.UI.FILL,
+  height:Titanium.UI.SIZE,
+  layout: "composite"
+},
+
+".back-img":{
+  width: 20,
+  height:Titanium.UI.SIZE,
+  left: 0,
+  top: 0
+},
+".greenButton":{
+  width: Titanium.UI.SIZE,
+  height: 40,
+  right: 5
+},
+".runner-data-image":{
+  left: 10,
+  width: 20,
+  height:Titanium.UI.SIZE
+},
+".share-textArea-wrap":{
+  left: 5,
+  right: 5,
+  width: Titanium.UI.FILL,
+  height: 100,
+  borderRadius: 4,
+  borderWidth: 1,
+  borderColor: '#ccc',
+  tintColor: '#999',
+  top: 10
+},
+".share-text-area":{
+  height: 100,
+  width: Titanium.UI.FILL,
+  verticalAlign: Titanium.UI.TEXT_VERTICAL_ALIGNMENT_TOP,
+  textAlign: Titanium.UI.TEXT_ALIGNMENT_LEFT,
+  font:{
+    fontSize: 14
+  },
+  color: '#333',
+  paddingLeft: 5,
+  paddingRight: 5,
+  backgroundColor: '#fff'
+},
+".share-label":{
+  width:Titanium.UI.SIZE,
+  height:Titanium.UI.SIZE,
+  font: {
+    fontWeight: 'bold',
+    fontSize: 20
+  },
+  top: 0,
+  color: "#fff"
+},
+
+".send-label":{
+  width:Titanium.UI.SIZE,
+  height:Titanium.UI.SIZE,
+  font: {
+    fontSize: 17
+  },
+  top: 0,
+  right: 5,
+  color: "#fff"
+},
+
+".runner-image": {
+  width: 60,
+  height: Ti.UI.SIZE
+},
+
+".right_arrow": {
+  width: 10,
+  height: Titanium.UI.SIZE,
+  left: 10
+},

@@ -1,0 +1,32 @@
+".container": {
+  backgroundColor: "#68cc33"
+},
+
+".menu_index_icon": {
+  width: 600
+},
+
+".register_label": {
+  width: Titanium.UI.FILL,
+  height: '35',
+  left: "5%",
+  right: "5%",
+  backgroundColor: '#4cd963',
+  font:{
+    fontSize: '20'
+  },
+  color: "#fff",
+  textAlign: 'center'
+},
+
+".running_by_punch_card": {
+  width: Titanium.UI.FILL,
+  height: '35',
+  left: "5%",
+  backgroundColor: '#f00',
+  font:{
+    fontSize: '20'
+  },
+  color: "#fff",
+  textAlign: 'center'
+},

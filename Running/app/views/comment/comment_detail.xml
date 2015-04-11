@@ -1,0 +1,23 @@
+<Alloy>
+  <Window id="window" backgroundColor="#fff">
+    <View class="header-title">
+      <ImageView id="backImg" image="/images/left-arrow-icon.png" class="back-img" />
+      <View layout="horizontal" height="Ti.UI.SIZE" width="Ti.UI.SIZE">
+        <Label id="titleLabel" text="评论 (" class="comment-label" />
+        <Label id="commentCountLabel" text="72" class="comment-label" />
+        <Label id="titleLabel" text="条)" class="comment-label" />
+      </View>
+    </View>
+    <View layout="vertical" top="40" bottom="50">
+      <View layout="vertical">
+        <View height="30" backgroundColor="#d0ccc7">
+          <Label id="runningThemeLabel" text="一路向春抄底青春" left="20" />
+        </View>
+        <ScrollView id="commentScrollView" layout="vertical" showVerticalScrollIndicator="true" showHorizontalScrollIndicator="true"></ScrollView>
+      </View>
+    </View>
+    <View height="50" bottom="0">
+      <TextField id="publishComments" hintText="说两句"></TextField>
+    </View>
+  </Window>
+</Alloy>

@@ -1,0 +1,19 @@
+
+".container": {},
+
+".visitor-head-image": {
+  width: "10%",
+  height: Titanium.UI.SIZE
+},
+
+".visitor-name-label":{
+  left: 10,
+  color: "#00d679"
+},
+
+"#visitorCommentLabel": {
+  font:{
+    fontSize: 17
+  },
+  color: "#333"
+},

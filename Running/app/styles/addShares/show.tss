@@ -1,0 +1,31 @@
+".header-title":{
+  width:Titanium.UI.FILL,
+  height: 40,
+  backgroundColor: "#222730"
+},
+
+".back-img":{
+  width: 20,
+  height:Titanium.UI.SIZE,
+  left: 5
+},
+
+".image-number":{
+  width:Titanium.UI.SIZE,
+  height:Titanium.UI.SIZE,
+  font: {
+    fontSize: 20
+  },
+  color: "#fff"
+},
+
+".delete-img":{
+  width: 20,
+  height:Titanium.UI.SIZE,
+  right: 5
+},
+
+".runner-image": {
+  height: "40%",
+  width: "99%"
+},

@@ -1,0 +1,38 @@
+<Alloy>
+  <Window id="window" backgroundColor="#f7f7f7">
+    <View class="header-title" top="0" layout="composite">
+      <ImageView id="backView" width="25" top="35%" left="20" image="/images/left-arrow-icon.png" />
+      <Label text="注册" top="35%" color="#fff" width="Ti.UI.FILL" height="Ti.UI.SIZE" textAlign="center" />
+    </View>
+    <View layout="vertical" top="65">
+      <View height="1" backgroundColor="#e5e5e5" top="20" />
+      <View layout="horizontal" height="40" backgroundColor="#fff">
+        <View width="35">
+          <ImageView image="/images/account-icon.png" class="input_register_icon" left="10" />
+        </View>
+        <TextField id="userName" hintText="账户 用户名或手机号" class="edit_input_box" />
+      </View>
+      <View height="1" backgroundColor="#e5e5e5" />
+      <View layout="horizontal" height="40" backgroundColor="#fff">
+        <View width="35">
+          <ImageView image="/images/password-icon.png" class="input_register_icon" left="10" />
+        </View>
+        <TextField id="userPwd" hintText="密码" class="edit_input_box" />
+      </View>
+      <View height="1" backgroundColor="#e5e5e5" />
+      <View height="1" backgroundColor="#e5e5e5" top="30" />
+      <View layout="horizontal" height="40">
+        <View width="70%" height="Ti.UI.FILL" backgroundColor="#fff">
+          <TextField id="valiCode" hintText="手机验证码" class="input_validate_code" />
+        </View>
+        <Label id="sendValiCodeLabel" text="发送验证码" class="send_validate_code" />
+      </View>
+      <View height="1" backgroundColor="#e5e5e5" />
+      <Label id="registerLabel" text="注  册" class="register_label" />
+      <View layout="horizontal" height="Ti.UI.SIZE" width="Ti.UI.SIZE" right="5%" top="20">
+        <Label width="Ti.UI.SIZE" right="15" text="已注册过跑步晒卡？请直接" />
+        <Label id="loginLabel" class="login_label" text="登陆" />
+      </View>
+    </View>
+  </Window>
+</Alloy>

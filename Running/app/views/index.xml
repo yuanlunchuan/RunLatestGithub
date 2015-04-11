@@ -1,0 +1,8 @@
+<Alloy>
+  <Window id="indexWin" class="container">
+    <View>
+      <Label text="今天你打卡了吗？" class="is_punch_card" top="30%" />
+      <Label id="runningByCardLabel" text="跑步打卡" class="running_by_punch_card" bottom="10%" />
+    </View>
+  </Window>
+</Alloy>

@@ -1,0 +1,30 @@
+".container": {
+  backgroundColor: "#68cc33"
+},
+
+"#Label": {
+  width: Ti.UI.SIZE,
+  height: Ti.UI.SIZE,
+  color: "#000"
+},
+
+"#label": {
+  font: {
+    fontSize: 12
+  }
+},
+
+".is_punch_card": {
+  color: "#000",
+  font: {
+    fontSize: 42
+  }
+},
+
+".running_by_punch_card": {
+  color: "#fff",
+  font: {
+    fontSize: 35,
+    fontWeight: 'bold'
+  }
+},

@@ -1,0 +1,5 @@
+".countdown-Label":{
+  font:{
+    fontSize: 90
+  }
+}

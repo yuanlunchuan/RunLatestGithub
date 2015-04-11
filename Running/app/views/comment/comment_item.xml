@@ -1,0 +1,16 @@
+<Alloy>
+  <View layout="vertical" height="Ti.UI.SIZE" top="0">
+    <View height="50">
+      <ImageView image="/images/munion_user_not_login.png" class="visitor-head-image" left="0" />
+      <Label id="visitorNameLabel" text="小石头" class="visitor-name-label" left="11%" />
+      <View layout="horizontal" width="Ti.UI.SIZE" height="Ti.UI.SIZE" right="5">
+        <Label id="commentDateLabel" text="3月6日" />
+        <Label id="commentTimeLabel" text="12:25" left="10" />
+      </View>
+    </View>
+    <View height="Ti.UI.SIZE" left="10%">
+      <Label id="visitorCommentLabel" text=" 一颗通透的心，需要懂得取舍，才能让心变得清澈透亮，把一切都看得透彻，却不会让自己沉沦，懂得处理自己的情绪问题，不会轻易地被扰乱心绪。" />
+    </View>
+    <View height="1" backgroundColor="#e5e5e5" top="10" left="10" right="10" />
+  </View>
+</Alloy>

@@ -1,0 +1,9 @@
+<Alloy>
+  <Window id="menuIndexWin" class="container">
+    <View>
+      <ImageView class="menu_index_icon" top="20%" image="/images/runner-guide-icon.png"/>
+      <Label class="register_label" id="registerLabel" bottom="15%" text="快速注册用户"/>
+      <Label class="running_by_punch_card" id="experienceByVisitorLabel" bottom="5%" text="以游客身份体验"/>
+    </View>
+  </Window>
+</Alloy>

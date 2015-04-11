@@ -1,0 +1,18 @@
+<Alloy>
+  <Window id="window" backgroundColor="#000">
+    <View layout="vertical">
+      <View class="header-title" layout="composite">
+        <ImageView id="backImg" image="/images/left-arrow-icon.png" class="back-img" />
+        <View layout="horizontal" height="Ti.UI.SIZE" width="Ti.UI.SIZE">
+          <Label id="curImgNumberLabel" text="1" class="image-number" />
+          <Label text="/" />
+          <Label id="totalImgNumberLabel" text="3" class="image-number" />
+        </View>
+        <ImageView id="deleteImg" image="/images/deleteButton-icon.png" class="delete-img" />
+      </View>
+      <View top="0" height="Ti.UI.FILL" width="Ti.UI.FILL">
+        <ImageView id="runnerImage" image="/images/image1.png" class="runner-image" />
+      </View>
+    </View>
+  </Window>
+</Alloy>

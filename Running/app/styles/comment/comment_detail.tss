@@ -1,0 +1,35 @@
+".header-title":{
+  width:Titanium.UI.FILL,
+  height: 40,
+  backgroundColor: "#68cc33",
+  top: 0
+},
+
+".back-img":{
+  width: 20,
+  height:Titanium.UI.SIZE,
+  left: 5
+},
+
+".comment-label": {
+  font:{
+    fontSize: 20
+  },
+  color: "#fff"
+},
+
+"#runningThemeLabel": {
+  color: "#fff",
+  font: {
+    fontSize: 14
+  }
+},
+
+"#publishComments": {
+  color: "#333",
+  borderColor: "#ccc8c8",
+  borderWidth: 5,
+  width: Titanium.UI.FILL,
+  height: Titanium.UI.FILL
+},
+

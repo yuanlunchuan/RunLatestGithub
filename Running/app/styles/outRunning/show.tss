@@ -1,0 +1,23 @@
+"#runningCard":{
+  font:{
+    fontSize: 30
+  }
+},
+".runner-card-label":{
+  color: "#fff",
+  font:{
+    fontSize: 50
+  }
+},
+".label-amount":{
+  left: 5
+},
+".count-label":{
+  font:{
+    fontSize: 80
+  }
+},
+".little-image-icon":{
+  width: 18,
+  height: 18
+},

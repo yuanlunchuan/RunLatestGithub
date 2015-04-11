@@ -1,0 +1,44 @@
+".container": {},
+
+".header-title":{
+  width:Titanium.UI.FILL,
+  height: 60,
+  backgroundColor: "#68cc33"
+},
+
+".input_login_icon": {
+  height: Titanium.UI.SIZE,
+  width: 20
+},
+
+".edit_input_box":{
+  width: Titanium.UI.FILL,
+  height: 40,
+  verticalAlign: Titanium.UI.TEXT_VERTICAL_ALIGNMENT_CENTER,
+  textAlign: Titanium.UI.TEXT_ALIGNMENT_LEFT,
+  paddingLeft: 5,
+  paddingRight: 5,
+  font: {
+    fontSize: 14
+  }
+},
+
+".login_label": {
+  top: 35,
+  width: Titanium.UI.FILL,
+  height: '45',
+  left: "5%",
+  right: "5%",
+  backgroundColor: '#68cc33',
+  font:{
+    fontSize: '20'
+  },
+  color: "#fff",
+  textAlign: 'center'
+},
+
+".forget_pwd": {
+  width: Ti.UI.SIZE,
+  top: 10,
+  right: "5%"
+},

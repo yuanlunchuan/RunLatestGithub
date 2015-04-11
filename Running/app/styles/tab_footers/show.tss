@@ -1,0 +1,18 @@
+".popup-small-tag":{
+  font:{
+    fontSize: '9'
+  },
+  color: '#999',
+  top: '5'
+},
+".messageCount":{
+  font:{
+    fontSize: 12
+  },
+  color: "#fff",
+  right: "30%",
+  top: 2,
+  width: 14,
+  height: 14,
+  textAlign: "center"
+},

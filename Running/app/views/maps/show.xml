@@ -1,0 +1,3 @@
+<Alloy>
+  <Window id="window" backgroundImage="/images/default-map.png" width="Ti.UI.FII" height="Ti.UI.FILL" ></Window>
+</Alloy>

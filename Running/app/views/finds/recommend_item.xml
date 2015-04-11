@@ -1,0 +1,24 @@
+<Alloy>
+  <View id="body" width="Ti.UI.FILL" height="Ti.UI.SIZE" backgroundColor="#fff" layout="vertical" top="0">
+    <View height="Ti.UI.SIZE" top="0">
+      <ImageView id="findImageView" image="/images/find-image0.png" class="show-runner-image" />
+    </View>
+    <View layout="horizontal" height="Ti.UI.SIZE">
+      <View layout="horizontal" width="33%" height="Ti.UI.SIZE">
+        <ImageView image="/images/support_icon_clicked.png" class="visitor-option-img" left="30%" />
+        <Label id="supportCountLabel" text="2043" left="10" />
+      </View>
+      <View height="30" width="1" backgroundColor="#e5e5e5" top="5" bottom="5"></View>
+      <View id="commentView" layout="horizontal" width="33%" height="Ti.UI.SIZE">
+        <ImageView image="/images/runner_comment_icon.png" class="visitor-option-img" left="30%" />
+        <Label id="commentCountLabel" text="2048" left="10" />
+      </View>
+      <View height="30" width="1" backgroundColor="#e5e5e5" top="5" bottom="5"></View>
+      <View layout="horizontal" width="33%" height="Ti.UI.SIZE">
+        <ImageView image="/images/runner_transmit_icon.png" class="visitor-option-img" left="30%" />
+        <Label id="shareLabel" text="分享" left="10" />
+      </View>
+    </View>
+    <View height="1" backgroundColor="#e5e5e5" />
+  </View>
+</Alloy>

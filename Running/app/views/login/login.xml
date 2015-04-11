@@ -1,0 +1,29 @@
+<Alloy>
+  <Window id="window" backgroundColor="#f7f7f7">
+    <View class="header-title" top="0" layout="composite">
+      <ImageView id="backView" width="25" top="35%" left="20" image="/images/left-arrow-icon.png" />
+      <Label text="登陆" top="35%" color="#fff" width="Ti.UI.FILL" height="Ti.UI.SIZE" textAlign="center" />
+    </View>
+    <View layout="vertical" top="65" >
+      <View height="1" backgroundColor="#e5e5e5" top="20" />
+      <View layout="horizontal" height="40" backgroundColor="#fff">
+        <View width="35">
+          <ImageView image="/images/account-icon.png" class="input_login_icon" left="10" />
+        </View>
+        <TextField id="userName" hintText="账户 用户名或手机号" class="edit_input_box" />
+      </View>
+      <View height="1" backgroundColor="#e5e5e5" />
+      <View layout="horizontal" height="40" backgroundColor="#fff">
+        <View width="35">
+          <ImageView image="/images/password-icon.png" class="input_login_icon" left="10" />
+        </View>
+        <TextField id="userPwd" hintText="密码" class="edit_input_box" />
+      </View>
+      <Label id="loginLabel" text="登  陆" class="login_label" />
+      <Label id="forgetPwdLabel" text="忘记密码？" class="forget_pwd" />
+      <View bottom="10%">
+        <Label id="loginByOtherStyle" text="使用其他方式登陆"/>
+      </View>
+    </View>
+  </Window>
+</Alloy>

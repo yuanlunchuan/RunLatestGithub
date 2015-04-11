@@ -1,0 +1,9 @@
+<Alloy>
+  <Window id="window" width="Ti.UI.FILL" height="Ti.UI.FILL" backgroundColor="#1c222e">
+    <Label id="countdownLabel" class="countdown-Label" textAlign="center" color="#fff" width="Ti.UI.FILL" height="Ti.UI.FILl" text="3" />
+    <View width="Ti.UI.FILL" height="Ti.UI.SIZE" layout="horizontal" bottom="80">
+      <Label id="cancelLabel" text="取消" backgroundColor="#f00" color="#fff" textAlign="center" width="25%" height="40" left="5%" />
+      <Label id="startRunningLabel" text="开始跑步" textAlign="center" width="55%" height="40" left="5%" backgroundColor="#00de66" color="#fff" />
+    </View>
+  </Window>
+</Alloy>

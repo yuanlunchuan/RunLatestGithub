@@ -1,0 +1,16 @@
+<Alloy>
+  <View id="body" backgroundColor="#fff" layout="vertical">
+    <View class="header-title" layout="composite">
+      <View id="messageView" top="45%" left="8%" height="Ti.UI.SIZE" width="Ti.UI.SIZE" >
+        <ImageView id="showMessageImage" width="20" height="20" image="/images/ring-icon.png" />
+        <Label class="messageCount" backgroundImage="/images/red-backGround-icon.png" text="8" />
+      </View>
+      <View class="container">
+        <Label id="runingLabel" text="跑步" class="active-label"/>
+        <Label id="runningGroupLabel" text="跑友圈" class="unactive-label" />
+      </View>
+      <Label id="addLabel" text="+" class="add-class" />
+    </View>
+    <ScrollView id="contentView" layout="composite" width="Ti.UI.FILL" height="Ti.UI.FILL" />
+  </View>
+</Alloy>

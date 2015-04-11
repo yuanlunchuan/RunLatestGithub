@@ -1,0 +1,30 @@
+<Alloy>
+  <View id="body" layout="vertical" width="Ti.UI.FILL" height="Ti.UI.FILL" backgroundColor="#fff">
+    <View class="header-title" layout="composite">
+      <Label class="title-label" width="Ti.UI.FILL" height="Ti.UI.FILL" textAlign="center" height="Ti.UI.SIZE" text="发现" />
+    </View>
+    <View layout="horizontal" height="35" top="0" backgroundColor="#f0f0f0">
+      <View id="recommendView" layout="vertical" width="33%" height="Ti.UI.FILL">
+        <View height="Ti.UI.FILL">
+          <Label id="recommendLabel" text="推荐" color="#25cf44" />
+          <View id="recommendLine" height="3" backgroundColor="#25cf44" width="Ti.UI.FILL" bottom="0" />
+        </View>
+      </View>
+      <View height="30" width="1" backgroundColor="#e5e5e5"/>
+      <View id="activityView" layout="vertical" width="33%" height="Ti.UI.FILL">
+        <View height="Ti.UI.FILL">
+          <Label id="activityLabel" text="活动" />
+          <View id="activityLine" height="5" backgroundColor="#fff" width="Ti.UI.FILL" bottom="0"></View>
+        </View>
+      </View>
+      <View height="30" width="1" backgroundColor="#e5e5e5" />
+      <View id="competitionView" layout="vertical" width="33%" height="Ti.UI.FILL">
+        <View height="Ti.UI.FILL">
+          <Label id="competitionLabel" text="竞赛" />
+          <View id="competitionLine" height="5" backgroundColor="#fff" width="Ti.UI.FILL" bottom="0"></View>
+        </View>
+      </View>
+    </View>
+    <ScrollView id="content" layout="vertical" width="Ti.UI.FILL" height="Ti.UI.FILL" />
+  </View>
+</Alloy>

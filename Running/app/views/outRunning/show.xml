@@ -1,0 +1,25 @@
+<Alloy>
+  <Window id="window" layout="vertical" width="Ti.UI.FILL" height="Ti.UI.FILL" backgroundColor="#000">
+    <View width="Ti.UI.FILL" height="Ti.UI.SIZE" top="25" >
+      <ImageView id="photoImage" width="50" height="50" image="/images/photo-icon.png" />
+      <Label id="runnerCardLabel" class="runner-card-label" visible="false" width="Ti.UI.FILL" height="Ti.UI.SIZE" text="跑步打卡" textAlign="center" />
+    </View>
+    <View width="Ti.UI.SIZE" top="30" layout="horizontal" height="Ti.UI.SIZE" >
+      <ImageView image="/images/lead_time_black_image.png" class="little-image-icon" />
+      <Label width="Ti.UI.SIZE" color="#fff" class="label-amount" height="Ti.UI.SIZE" text="0'00'" />
+      <ImageView image="/images/runner-time-icon.png" left="30" class="little-image-icon" />
+      <Label width="Ti.UI.SIZE" color="#fff" height="Ti.UI.SIZE" class="label-amount" text="03:45" />
+      <ImageView image="/images/runner-count-black.png" left="30" class="little-image-icon" />
+      <Label width="Ti.UI.SIZE" color="#fff" height="Ti.UI.SIZE" class="label-amount" text="1221" />
+    </View>
+    <Label class="count-label" width="Ti.UI.FILL" height="Ti.UI.SIZE" top="5" textAlign="center" color="#fff" text="0.00" />
+    <Label width="Ti.UI.FILL" height="Ti.UI.SIZE" top="4" textAlign="center" color="#fff" text="公里" />
+    <View id="operatorButton" width="Ti.UI.FILL" height="40" top="20" backgroundColor="#f00" left="20" right="20" >
+      <ImageView id="operatorImageView" height="20" width="20" image="/images/triangle-icon.png" />
+    </View>
+    <View width="Ti.UI.FILL" height="Ti.UI.SIZE" top="20">
+      <ImageView id="unlockImageView" image="/images/unlock-icon.png" height="180" width="180" />
+      <ImageView id="lockImageView" visible="false" image="/images/lock-icon.png" height="180" width="180" />
+    </View>
+  </Window>
+</Alloy>
